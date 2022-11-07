@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 80px;
+}
+
+.content {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 800px;
+    width: auto;
+}
+
+.block {
+    display: inline-block;
+    width: 33%;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+    font-size: xx-large;
+}
+
+.block-1 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFllO1WCBuXlZDqVgN_djeAc4F5wmia1rXg&usqp=CAU");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.block-2 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDm10wS1n1ApDBfWdidlLXCWI5KpXExVOnHA&usqp=CAU");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.block-3 {
+    background: url("https://cdn-thumbs.ohmyprints.net/1/6fe3962d9f4fafa556b5c77fadc14dfc/817x600/thumbnail/fit.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.block:hover {
+    border: 10px solid transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.footer {
+    background-color: lightgray;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 130px;
+}
+
+.footer-1 {
+    text-align: left;
+    float:left
+}
+
+.footer-2 {
+    text-align: right;
+    float: right;
+}
+
